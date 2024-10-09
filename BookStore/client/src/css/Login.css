@@ -1,0 +1,54 @@
+.login-page , .student-form-container{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #301934;
+}
+
+.login-container , .student-form {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 3%;
+    width: 40%;
+}
+
+.login-container h2 , .student-form h2 {
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+.login-container .form-grp , .student-form{
+    margin-bottom: 3%;
+}
+
+.login-container .form-grp label , .student-form {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+.login-container .form-grp input,
+.login-container .form-grp select {
+    width: 100%;
+    padding: 2%;
+    box-sizing: border-box;
+    margin-top: 1%;
+}
+
+.login-container .btn-login {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 2%;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 2%;
+}
